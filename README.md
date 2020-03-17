@@ -3,7 +3,7 @@
 
 # 在java中使用
 
-下载release中的win32，HandWriteRecognizerLib.dll为C++动态库，Microsoft.Ink.dll为微软手写识别库，HandWriteRecognizerCSharp.dll是C#封装的中间层。
+下载release中的win32.zip。其中HandWriteRecognizerLib.dll为C++动态库，Microsoft.Ink.dll为微软手写识别库，HandWriteRecognizerCSharp.dll是C#封装的中间层。
 将C#的两个dll拷贝到java的bin目录，这里是32位，所以java也必须是32位。
 
 jna引用HandWriteRecognizerLib.dll
