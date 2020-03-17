@@ -30,6 +30,9 @@ public interface HandWriteRecognizerLibrary  extends Library {
 ### 调用jna接口
 
 ```
+Pointer strokesStrPointer = new Memory(strokesStr.length());
+byte[] bytes = strokesStr.getBytes();
+strokesStrPointer.write(0, bytes, 0, bytes.length);
 Pointer result = new Memory(count * 2);
 result = HandWriteRecognizerLibrary.INSTANCE.recognizer(strokesStrPointer, count);
 String temp = result.getString(0);
