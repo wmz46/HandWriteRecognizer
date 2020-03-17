@@ -1,7 +1,7 @@
 # HandWriteRecognizer
 封装Microsoft.Ink为C++动态库，可供其他语言调用手写识别
 
-# 在java中使用方法
+# 在java中使用
 
 下载release中的win32，HandWriteRecognizerLib.dll为C++动态库，Microsoft.Ink.dll为微软手写识别库，HandWriteRecognizerCSharp.dll是C#封装的中间层。
 将C#的两个dll拷贝到java的bin目录，这里是32位，所以java也必须是32位。
