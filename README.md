@@ -22,7 +22,8 @@ jna引用HandWriteRecognizerLib.dll
 
 ```
 public interface HandWriteRecognizerLibrary  extends Library {
-    HandWriteRecognizerLibrary INSTANCE = Native.load("HandWriteRecognizerLib", HandWriteRecognizerLibrary.class);
+    //虽然loadLibrary已过时，不过试了load在springboot网站无法正常加载，原因未知。
+    HandWriteRecognizerLibrary INSTANCE = Native.loadLibrary("HandWriteRecognizerLib", HandWriteRecognizerLibrary.class);
     Pointer recognizer(Pointer strokes, int count); 
 
 } 
