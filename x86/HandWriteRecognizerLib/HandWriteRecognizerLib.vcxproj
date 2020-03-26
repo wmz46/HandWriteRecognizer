@@ -161,9 +161,9 @@
     <ClCompile Include="HandWriteRecognizerLib.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="HandWriteRecognizerCSharp">
-      <HintPath>..\HandWriteRecognizerCSharp\bin\Debug\HandWriteRecognizerCSharp.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\HandWriteRecognizerCSharp\HandWriteRecognizerCSharp.csproj">
+      <Project>{75c4019a-6b48-4db7-8fb9-368a1312090c}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
