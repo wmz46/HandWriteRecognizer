@@ -43,3 +43,5 @@ if (StringUtils.isEmpty(temp)) {
     return temp.split(" ");
 } 
 ```
+# 打包说明
+请用vs2019（C++编译我不在行，使用其他IDE我不清楚怎么整）打开项目文件HandWriteRecognizer.sln。先右键HandWriteRecognizerCSharp项目生成后，再右键HandWriteRecognizerLib生成项目。最终生成目录在根目录的Debug或Release文件夹。将文件夹中的三个dll拷贝出来即可。

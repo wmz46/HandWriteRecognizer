@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-x64-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ffi": "^2.3.0",
+    "iconv-lite": "^0.6.2",
+    "ref": "^1.3.5", 
+  }
+}
