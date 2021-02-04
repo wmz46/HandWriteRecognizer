@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-x64-demo",
+  "name": "ffi-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
